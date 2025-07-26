@@ -1,0 +1,15 @@
+{
+  "name": "zbysheck/aiaiai",
+  "description": "Unified PHP client for different AI providers (OpenAI, Claude, Gemini)",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AIAIAI\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
