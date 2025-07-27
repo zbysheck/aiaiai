@@ -41,7 +41,7 @@ class AIClient {
 
     public function askGemini(string $apiKey, string $prompt): string {
         $client = new Client();
-        $response = $client->post("https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=$apiKey", [
+        $response = $client->post("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey", [
             'headers' => ['Content-Type' => 'application/json'],
             'json' => [
                 'contents' => [[
